@@ -101,6 +101,7 @@ ul {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  table-layout:fixed;
 }
 
 caption,
@@ -109,7 +110,7 @@ td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
-  width: 350px
+  width: 350px;
 }
 
 q,
