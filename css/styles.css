@@ -101,6 +101,7 @@ ul {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  width: 350pt;
   table-layout:fixed;
 }
 
@@ -111,6 +112,7 @@ td {
   font-weight: normal;
   vertical-align: middle;
   width: 350px;
+  /* white-space: nowrap; */
 }
 
 q,
@@ -2772,7 +2774,7 @@ div.mouse span.scroll-down {
 }
 
 .latest-articles article ul.article-footer {
-  padding-top: 15px;
+  padding: 10px;
   border-top: solid 1px #e5e7e9;
 }
 
