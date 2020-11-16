@@ -101,8 +101,12 @@ ul {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: 350pt;
+  /* width: 350pt; */
   table-layout:fixed;
+}
+
+.table--extend {
+  width: 350pt;
 }
 
 caption,
