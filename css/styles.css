@@ -3079,7 +3079,7 @@ footer .footer-nav ul.footer-primary-nav li:last-child {
 
 footer .footer-nav ul.footer-share {
   display: inline-block;
-  /* float: right; */
+  float: right;
 }
 
 footer .footer-nav ul.footer-share > li {
