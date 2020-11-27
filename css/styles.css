@@ -106,7 +106,8 @@ table {
 }
 
 .table--extend {
-  width: 350pt;
+  width: 200pt;
+  margin-bottom: 0;
 }
 
 caption,
@@ -786,7 +787,7 @@ a.text-link:hover:after {
 
 .video-js {
   display: block;
-  vertical-align: top;
+  /* vertical-align: top; */
   box-sizing: border-box;
   color: #fff;
   background-color: #000;
@@ -1543,7 +1544,7 @@ body.vjs-full-window {
 
 .vjs-poster img {
   display: block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   margin: 0 auto;
   max-height: 100%;
   padding: 0;
@@ -3198,7 +3199,7 @@ footer .footer-nav ul.footer-secondary-nav li {
   font-variant: normal;
   line-height: 1;
   text-transform: none;
-  speak: none;
+  /* speak: none; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -4113,9 +4114,9 @@ footer .footer-nav ul.footer-secondary-nav li {
     line-height: 42px;
     margin: 0 0 20px;
   }
-  .latest-articles article {
-    margin-top: 50px;
-  }
+  /* .latest-articles article {
+    margin-top: 10px;
+  } */
 }
 
 @media screen and (max-width: 768px) {
@@ -4267,4 +4268,42 @@ footer .footer-nav ul.footer-secondary-nav li {
   .latest-articles select#inputArticle-Sort {
     margin: 20px 0;
   }
+}
+
+.tooltip3{
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+.tooltip3 p{
+    margin:0;
+    padding:0;
+}
+.description3 {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1.6em;
+    color: #fff;
+    border-radius: 5px;
+    background: #fff;
+}
+.description3:before {
+    content: "";
+    position: absolute;
+    top: -24px;
+    right: 60%;
+    border: 15px solid transparent;
+    border-top: 15px solid #000;
+    margin-left: -15px;
+    transform: rotateZ(180deg);
+}
+.tooltip3:hover .description3{
+    display: inline-block;
+    top: 40px;
+    left: 10px;
+}
+.work-table{
+  margin-bottom: 60px;
 }
