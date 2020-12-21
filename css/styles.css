@@ -2291,7 +2291,7 @@ textarea {
 .secondary-nav-wrapper ul.secondary-nav li {
   font-size: 13px;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .secondary-nav-wrapper ul.secondary-nav li.subscribe {
