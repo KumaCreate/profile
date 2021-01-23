@@ -4307,6 +4307,9 @@ footer .footer-nav ul.footer-secondary-nav li {
 .work-table{
   margin-bottom: 60px;
 }
+.work-table figcaption{
+  height: 100px;
+}
 .table-responsive{
   margin-bottom: 60px;
 }
