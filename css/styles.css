@@ -117,7 +117,6 @@ td {
   font-weight: normal;
   vertical-align: middle;
   width: 350px;
-  /* white-space: nowrap; */
 }
 
 q,
@@ -2800,11 +2799,12 @@ div.mouse span.scroll-down {
 }
 
 .latest-articles figcaption h2 {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 30px;
   padding: 15px 10px 10px 0;
   color: #414a52;
+  white-space: normal;
 }
 
 .latest-articles figcaption h2:after {
@@ -4226,7 +4226,7 @@ footer .footer-nav ul.footer-secondary-nav li {
     line-height: 40px;
   }
   .has-padding {
-    padding: 80px 0;
+    padding: 35px 0;
   }
   .has-padding-tall {
     padding: 80px 0;
@@ -4308,8 +4308,8 @@ footer .footer-nav ul.footer-secondary-nav li {
   margin-bottom: 60px;
 }
 .work-table figcaption{
-  height: 100px;
+  height: 90px;
 }
-.table-responsive{
-  margin-bottom: 60px;
+.last-work-table{
+  margin-bottom: 0px;
 }
