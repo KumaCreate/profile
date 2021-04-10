@@ -154,7 +154,7 @@ iframe {
 }
 
 p {
-  font-size: 15px;
+  font-size: 12px;
   line-height: 27px;
   padding-bottom: 15px;
   color: #414a52;
@@ -2883,12 +2883,18 @@ div.mouse span.scroll-down {
 }
 
 .freebies .content-left {
-  padding-right: 80px;
+  padding-right: 20px;
   border-right: solid 1px #e5e7e9;
 }
 
 .freebies .content-right {
   padding-left: 80px;
+}
+
+.freebies .inner {
+  padding-right: 20px;
+  text-align: left;
+  padding-left: 70px;
 }
 
 .freebies article.item {
