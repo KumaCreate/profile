@@ -222,14 +222,14 @@ iframe {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #fff;
-  background-color: #f3cf00ad;
+  background-color: #f3cf0078;
   padding: 20px;
   text-decoration: none;
   line-height: 1;
 }
 
 .btn.primary:hover {
-  background-color: #71d5d2;
+  background-color: #71d5d294;
 }
 
 .btn.secondary {
