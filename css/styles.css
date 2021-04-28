@@ -4328,3 +4328,15 @@ footer .footer-nav ul.footer-secondary-nav li {
 .col-1{
   height: 355px;
 }
+.blink {
+	-webkit-animation: blink 1s ease infinite;
+	animation: blink 1s ease infinite;
+}
+@-webkit-keyframes blink {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes blink {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
