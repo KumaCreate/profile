@@ -2223,7 +2223,7 @@ textarea {
 .header-nav-wrapper nav {
   display: inline-block;
   margin-right: 60px;
-  padding: 34px 0 33px;
+  padding: 10px 0 0px;
 }
 
 .header-nav-wrapper nav ul {
@@ -2284,7 +2284,7 @@ textarea {
 .secondary-nav-wrapper {
   display: inline-block;
   padding: 20px 20px;
-  background-color: #414a52;
+  /* background-color: #414a52; */
 }
 
 .secondary-nav-wrapper ul.secondary-nav li {
@@ -4208,6 +4208,15 @@ footer .footer-nav ul.footer-secondary-nav li {
   }
   div.mouse-container {
     display: none;
+  }
+  .header-nav-wrapper .logo {
+    display: inline-block;
+    width: 340px;
+    padding:15px 0;
+    text-align: center;
+    border-bottom: solid 5px #f3cf00f6;
+    background-color: #414a52;
+    font-size: 15px;
   }
 }
 
