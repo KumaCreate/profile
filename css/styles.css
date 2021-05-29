@@ -108,6 +108,8 @@ table {
 .table--extend {
   width: 200pt;
   margin-bottom: 0;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
 }
 
 caption,
@@ -117,6 +119,7 @@ td {
   font-weight: normal;
   vertical-align: middle;
   width: 336px;
+  border-bottom: 1px solid #ddd;
 }
 
 q,
@@ -3566,8 +3569,13 @@ footer .footer-nav ul.footer-secondary-nav li {
   content: "\e658";
 }
 
-.icon-ChartUp:before {
-  content: "\e659";
+header.hero {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: calc(100vh - 8.2em);
+  max-height: 760px;
+  padding-top: 10px;
 }
 
 .icon-ChartDown:before {
@@ -3742,8 +3750,8 @@ footer .footer-nav ul.footer-secondary-nav li {
   content: "\e684";
 }
 
-.icon-File:before {
-  content: "\e685";
+.latest-articles article ul.article-footer {
+  border-top: solid 1px #e5e7e9;
 }
 
 .icon-FileBox:before {
@@ -4208,6 +4216,32 @@ footer .footer-nav ul.footer-secondary-nav li {
   }
   div.mouse-container {
     display: none;
+  }
+  .header-nav-wrapper .logo {
+    display: inline-block;
+    width: 340px;
+    padding:15px 0;
+    text-align: center;
+    border-bottom: solid 5px #f3cf00f6;
+    background-color: #414a52;
+    font-size: 15px;
+  }
+  th {
+    width: 240px;
+  }
+  .latest-articles article.article-post .article-image {
+    height: 135px;
+    max-height: 150px;
+  }
+  .latest-articles figcaption h2 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .work-table figcaption {
+    height: 70px;
+  }
+  .latest-articles article ul.article-footer li {
+    font-size: 10px;
   }
 }
 
