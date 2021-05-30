@@ -1793,9 +1793,9 @@ animation: blink 1s ease infinite;
   .collective .video-player {
     width: 100%;
   }
-  header.hero {
+  /* header.hero {
     height: 640px;
-  }
+  } */
   .mouse-container {
     display: none;
   }
@@ -1834,7 +1834,7 @@ animation: blink 1s ease infinite;
     background-color: #414a52;
   }
   .header-nav-wrapper .logo {
-    width: 250px;
+    width: 140px;
   }
   .navicon {
     padding: 52px 35px;
