@@ -794,7 +794,6 @@ header.hero {
   width: 100%;
   height: calc(100vh - 8.2em);
   max-height: 760px;
-  padding: 10px;
 }
 
 header.hero .hero-bg {
@@ -1087,7 +1086,6 @@ div.mouse span.scroll-down {
 }
 
 .latest-articles article ul.article-footer {
-  padding: 10px;
   border-top: solid 1px #e5e7e9;
 }
 
@@ -1492,6 +1490,63 @@ footer .footer-nav ul.footer-secondary-nav li {
   position: relative;
 }
 
+.tooltip3{
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.tooltip3 p{
+  margin:0;
+  padding:0;
+}
+.description3 {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 1.6em;
+  color: #fff;
+  border-radius: 5px;
+  background: #fff;
+}
+.description3:before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  right: 60%;
+  border: 15px solid transparent;
+  border-top: 15px solid #000;
+  margin-left: -15px;
+  transform: rotateZ(180deg);
+}
+.tooltip3:hover .description3{
+  display: inline-block;
+  top: 40px;
+  left: 10px;
+}
+.work-table{
+margin-bottom: 60px;
+}
+.work-table figcaption{
+height: 90px;
+}
+.last-work-table{
+margin-bottom: 0px;
+}
+.youtube-channel{
+padding: 6px;
+}
+.row-1{
+height: 80px;
+}
+.col-1{
+height: 355px;
+}
+.blink {
+-webkit-animation: blink 1s ease infinite;
+animation: blink 1s ease infinite;
+}
+
 @media screen and (max-width: 1200px) {
   .header-nav-wrapper nav {
     margin-right: 10px;
@@ -1784,62 +1839,6 @@ footer .footer-nav ul.footer-secondary-nav li {
   }
 }
 
-.tooltip3{
-    position: relative;
-    cursor: pointer;
-    display: inline-block;
-}
-.tooltip3 p{
-    margin:0;
-    padding:0;
-}
-.description3 {
-    display: none;
-    position: absolute;
-    padding: 10px;
-    font-size: 12px;
-    line-height: 1.6em;
-    color: #fff;
-    border-radius: 5px;
-    background: #fff;
-}
-.description3:before {
-    content: "";
-    position: absolute;
-    top: -24px;
-    right: 60%;
-    border: 15px solid transparent;
-    border-top: 15px solid #000;
-    margin-left: -15px;
-    transform: rotateZ(180deg);
-}
-.tooltip3:hover .description3{
-    display: inline-block;
-    top: 40px;
-    left: 10px;
-}
-.work-table{
-  margin-bottom: 60px;
-}
-.work-table figcaption{
-  height: 90px;
-}
-.last-work-table{
-  margin-bottom: 0px;
-}
-.youtube-channel{
-  padding: 6px;
-}
-.row-1{
-  height: 80px;
-}
-.col-1{
-  height: 355px;
-}
-.blink {
-	-webkit-animation: blink 1s ease infinite;
-	animation: blink 1s ease infinite;
-}
 @-webkit-keyframes blink {
 	0% {opacity: 0;}
 	100% {opacity: 1;}
