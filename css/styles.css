@@ -1772,7 +1772,7 @@ animation: blink 1s ease infinite;
     width: 240px;
   }
   .latest-articles article.article-post .article-image {
-    height: 135px;
+    height: 126px;
     max-height: 150px;
   }
   .latest-articles figcaption h2 {
@@ -1784,6 +1784,9 @@ animation: blink 1s ease infinite;
   }
   .latest-articles article ul.article-footer li {
     font-size: 10px;
+  }
+  .border-none {
+    border: none;
   }
 }
 
