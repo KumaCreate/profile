@@ -176,7 +176,7 @@ h4 {
   font-weight: 600;
   margin: 7px 0 65px 60px;
   text-transform: uppercase;
-  font-family: 'Henny Penny', cursive;	
+  font-family: 'Henny Penny', cursive;
 }
 
 h4:after {
@@ -1394,6 +1394,7 @@ footer .footer-nav ul.footer-primary-nav {
 footer .footer-nav ul.footer-primary-nav li {
   display: inline-block;
   margin-right: 50px;
+  font-family: 'Henny Penny', cursive;
 }
 
 footer .footer-nav ul.footer-primary-nav li:last-child {
@@ -1403,6 +1404,7 @@ footer .footer-nav ul.footer-primary-nav li:last-child {
 footer .footer-nav ul.footer-share {
   display: inline-block;
   float: right;
+  font-family: 'Henny Penny', cursive;
 }
 
 footer .footer-nav ul.footer-share > li {
