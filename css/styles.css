@@ -477,20 +477,20 @@ textarea {
 }
 
 .wp1 {
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
   font-family: 'Creepster', cursive;
   padding-top: 50px;
 }
 
 .wp2 {
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 
 .wp3 {
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
   color: #fff;
   font-size: 17px;
   font-family: 'Caveat', cursive;
