@@ -1113,6 +1113,11 @@ div.mouse span.scroll-down {
   color: #414a52;
   white-space: normal;
   font-family: 'Kiwi Maru', serif;
+  /*末尾を3点リーダー対応*/
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .latest-articles figcaption h2:after {
