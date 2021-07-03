@@ -1777,8 +1777,9 @@ animation: blink 1s ease infinite;
     max-height: 150px;
   }
   .latest-articles figcaption h2 {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 15px;
+    -webkit-line-clamp: 3;
   }
   .work-table figcaption {
     height: 70px;
