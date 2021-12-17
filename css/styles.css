@@ -190,11 +190,11 @@ h4:after {
 }
 
 h5 {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
-  display: inline-block;
+  margin: 7px 0 10px 8px;
   text-transform: uppercase;
-  color: #414a52;
+  font-family: 'Henny Penny', cursive;
 }
 
 iframe {
