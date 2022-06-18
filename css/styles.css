@@ -1090,7 +1090,6 @@ div.mouse span.scroll-down {
 
 .latest-articles article ul.article-footer li {
   font-size: 13px;
-  transition-duration: 800ms;
   color: #d8b910;
   display: inline-block;
   font-family: 'Caveat', cursive;
