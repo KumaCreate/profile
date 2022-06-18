@@ -379,8 +379,8 @@ body {
 a {
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
-  -webkit-transition-duration: 200ms;
-  transition-duration: 200ms;
+  -webkit-transition-duration: 800ms;
+  transition-duration: 800ms;
   color: #f3cf00f6;
 }
 
@@ -484,8 +484,8 @@ textarea {
 }
 
 .wp2 {
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: 2.3s;
+  animation-delay: 2.3s;
 }
 
 .wp3 {
